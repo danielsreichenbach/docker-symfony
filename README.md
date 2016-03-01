@@ -38,7 +38,7 @@ the following example:
 
 ```yaml
 build:
-  image: wowstack/drone-symfony2
+  image: danielsreichenbach/symfony:1.0
   commands:
     - composer install
 ```
@@ -59,5 +59,5 @@ containers due to there being no build compatible with Alpine's musl libc.
 [alpine]:         http://alpinelinux.org/
 [docker-alpine]:  https://hub.docker.com/r/gliderlabs/alpine/
 
-[img-layers]:          https://imagelayers.io/?images=wowstack/drone-symfony2:latest "Get your own badge on imagelayers.io"
-[image-layers-status]: https://badge.imagelayers.io/wowstack/drone-symfony2:latest.svg
+[img-layers]:          https://imagelayers.io/?images=danielsreichenbach/symfony:latest "Get your own badge on imagelayers.io"
+[image-layers-status]: https://badge.imagelayers.io/danielsreichenbach/symfony:latest.svg
