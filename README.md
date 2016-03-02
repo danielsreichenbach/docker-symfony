@@ -10,8 +10,8 @@ The image is based on [Alpine Linux][alpine] version 3.2, and builds upon their
 
 ## Features
 
-The container provides `nginx`, command line `php` and the `php-fpm` daemon,
-along with the following PHP modules:
+The container provides command line `php` and the `php-fpm` daemon, along with
+the following PHP modules:
 
 * bcmath
 * ctype
@@ -38,7 +38,7 @@ the following example:
 
 ```yaml
 build:
-  image: danielsreichenbach/symfony:1.0
+  image: danielsreichenbach/symfony:full
   commands:
     - composer install
 ```
